@@ -1,17 +1,15 @@
+// routes/userRoutes.js
 const express = require('express');
-const { registerUser, loginUser, getUsers, blockUser, unblockUser, deleteUser } = require('../controllers/userController');
+const userController = require('../controllers/userController');
 const authMiddleware = require('../middleware/authMiddleware');
+
 const router = express.Router();
 
-router.post('/register', registerUser);
-router.post('/login', loginUser);
-
-// Protect the following routes with authentication middleware
-router.use(authMiddleware);
-
-router.get('/', getUsers);
-router.patch('/block', blockUser);
-router.patch('/unblock', unblockUser);
-router.delete('/delete', deleteUser);
+router.get('/', authMiddleware, userController.getUsers);
+router.post('/register', userController.registerUser);
+router.post('/login', userController.loginUser);
+router.patch('/block', authMiddleware, userController.blockUser);
+router.patch('/unblock', authMiddleware, userController.unblockUser);
+router.delete('/delete', authMiddleware, userController.deleteUser);
 
 module.exports = router;

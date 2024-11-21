@@ -1,11 +1,13 @@
+// app.js
+const dotenv = require('dotenv');
+dotenv.config();  // Load environment variables
+
 const express = require('express');
 const bodyParser = require('body-parser');
-const dotenv = require('dotenv');
 const cors = require('cors');
 const userRoutes = require('./routes/userRoutes');
 const sequelize = require('./config/database');
 
-dotenv.config();
 const app = express();
 
 app.use(cors());
