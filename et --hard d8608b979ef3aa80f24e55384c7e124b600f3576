@@ -1,0 +1,59 @@
+[33mcommit b93e77cb65a59a4e864951bcd6130f1b2b33596a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Abdulmalik000777 <adamy000777@gmail.com>
+Date:   Mon Nov 25 20:14:39 2024 +0500
+
+    deleted my-app file
+
+[33mcommit d8608b979ef3aa80f24e55384c7e124b600f3576[m
+Author: Abdulmalik000777 <adamy000777@gmail.com>
+Date:   Fri Nov 22 16:49:37 2024 +0500
+
+    working on front end part
+
+[33mcommit 15a2f6d8d71aa4f016b00f7cb15d9b12bc31b422[m
+Author: Abdulmalik000777 <adamy000777@gmail.com>
+Date:   Fri Nov 22 16:29:06 2024 +0500
+
+    Registration, Logging in, Blocking and Unblocking parts work
+
+[33mcommit 3a8bac7c0f4e63556573d218d0d70db5c86bdeef[m
+Author: Abdulmalik000777 <adamy000777@gmail.com>
+Date:   Thu Nov 21 23:14:39 2024 +0500
+
+    adding react to create front end
+
+[33mcommit d3a2cf5668825a1d885bba7b18a06fa98d331329[m
+Author: ABDULMALIK (Adam) ABDULLAEV <112929770+Abdulmalik000777@users.noreply.github.com>
+Date:   Thu Nov 21 22:56:55 2024 +0500
+
+    Update README.md
+
+[33mcommit ab83391ab6f20133aa5ae379466d8e659d97400d[m
+Author: Abdulmalik000777 <adamy000777@gmail.com>
+Date:   Thu Nov 21 22:45:14 2024 +0500
+
+    working with sql and still cannot delete and block unblock
+
+[33mcommit 78fdf5fe49ce90968299c74fd9f3d1fee70ddb6b[m
+Author: Abdulmalik000777 <adamy000777@gmail.com>
+Date:   Thu Nov 21 18:32:32 2024 +0500
+
+    connected to mysql database
+
+[33mcommit fded75fc8d78bd7cc3f9a3cfa4fb01df03093037[m
+Author: Abdulmalik000777 <adamy000777@gmail.com>
+Date:   Wed Nov 20 21:10:59 2024 +0500
+
+    added new files
+
+[33mcommit dc7d48dca1483af523486af9cb3208d896802e19[m
+Author: Abdulmalik000777 <adamy000777@gmail.com>
+Date:   Wed Nov 20 21:04:46 2024 +0500
+
+    initial step
+
+[33mcommit 583537a59bd0f69ad8f2d89f86b1b35625e8f042[m
+Author: Abdulmalik000777 <adamy000777@gmail.com>
+Date:   Wed Nov 20 17:00:52 2024 +0500
+
+    Initial commit
